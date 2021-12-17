@@ -1,0 +1,49 @@
+.accHeader {
+  text-decoration: none;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+  
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: darkslateblue;
+  color: white;
+}
+
+a{
+  text-decoration: underline;
+  color: black;
+}
+
+.btn{
+  margin: 2px;
+}
+
+.controlCol{
+  width: 380px;
+}
+
+.heading{
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: darkslateblue;
+  color: white;
+}

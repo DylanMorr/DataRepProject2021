@@ -1,0 +1,72 @@
+h2 {
+  text-decoration: underline;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: darkslateblue;
+  color: white;
+}
+
+.idCol {
+  width: 100px;
+}
+
+.nameCol{
+  width: 200px;
+}
+
+.scanCol{
+  width: 150px;
+}
+
+.timeCol{
+  width: 150px;
+}
+
+.statusCol{
+  width: 150px;
+}
+
+.resultCol{
+  width: 150px;
+}
+
+.imgCol{
+  width: 150px;
+}
+
+.buttonCol{
+  width: 250px;
+}
+
+.heading{
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: darkslateblue;
+  color: white;
+}
+
+a{
+  text-decoration: underline;
+  color: black;
+}
